@@ -1,3 +1,4 @@
+package UndirectedGraphs;
 import edu.princeton.cs.algs4.*;
 
 public class DepthFirstPaths
@@ -31,7 +32,7 @@ public class DepthFirstPaths
 			{
 				dfs(G, w);
 				// Record that w came from v
-				edgeTo[w]l = v;
+				edgeTo[w] = v;
 			}
 	}
 	
